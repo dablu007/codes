@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 void printLCS(string first,string second){
-	int m = first.size();
-	
+	int m = first.size();	
 	int n = second.size();
 	int dp[m+1][n+1],i,j;
 	for ( i = 0; i <= m ; i++){
